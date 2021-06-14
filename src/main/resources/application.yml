@@ -1,0 +1,12 @@
+server:
+  port: 8088
+spring:
+  profiles:
+    active:
+    - native
+  cloud:
+    config:
+      server:
+        native:
+          search-locations:
+          - file:///C:/Users/Shahid_Hasan/JPoP/Development/configurations
